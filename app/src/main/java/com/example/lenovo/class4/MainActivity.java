@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         expenseList.add("Expense 21");
+
         listAdapter.notifyDataSetChanged(); //to notify adapter that we have made changes in list
 
     }
