@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+
+   >
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/expenseNameTextView"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/expenseCategoryTextView"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/expenseListItemButton"
+        android:focusable="false"/>
+       <!-- android:focusable="false" (works when list has button )otherwise textView will become unclickable as focus is on button so clicking on
+        button will work but not textView  -->
+</LinearLayout>

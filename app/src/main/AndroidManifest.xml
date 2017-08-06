@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.class4">
+   <!-- for taking permission from user -->
+    <uses-permission android:name="android.permission.CALL_PHONE"><!-- for taking phone call permission -->
+
+    </uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExpenseDetailActivity"
+            android:label="@string/title_activity_expense_detail"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--  for showing our app as one of option to do particular task-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/><!--view is used to open browerable  data ,images,documents ect -->
+                <category android:name="android.intent.category.DEFAULT"/><!-- by default all activity are of default type -->
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

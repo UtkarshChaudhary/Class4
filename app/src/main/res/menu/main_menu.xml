@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add"
+      android:title="add"
+        app:showAsAction="always"/><!--showAsAction brings that menu item to title bar   -->
+
+    <item android:id="@+id/remove"
+        android:title="remove"
+        app:showAsAction="always"/>
+    <item android:title="About Us" android:id="@+id/aboutUs"/>
+
+    <item android:title="Contact Us" android:id="@+id/contactUs"/>
+
+    <item android:title="Feedback" android:id="@+id/feedback"/>
+
+</menu>

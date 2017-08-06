@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.lenovo.class4.ExpenseDetailActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    >
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/expenseDetailTitleTextView"
+        android:layout_margin="20dp"
+        android:text="title"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:id="@+id/expenseDetailPriceTextView"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="category"
+        android:id="@+id/expenseDetailCategoryTextView"
+        />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/expenseDateEditText"
+        android:hint="Enter Date"
+        android:focusable="false"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/expenseDetailSubmitButton"
+        android:layout_margin="20dp"
+        android:focusable="false"
+        android:text="Submit"/>
+</LinearLayout>

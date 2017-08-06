@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Class4</string>
+    <string name="title_activity_expense_detail">ExpenseDetailActivity</string>
+</resources>
